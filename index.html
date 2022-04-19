@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Inicio | Impulsa Anáhuac Mérida</title>
+</head>
+<body>
+<header class="header">
+    <img src="./img/logo/logo-impulsa.png" alt="Logo de impulsa" class="header__img"/>
+    <nav class="header__nav">
+        <ul class="header__navList">
+            <li><a class="header__navListLink" href="#who">¿Quiénes somos?</a></li>
+            <li><a class="header__navListLink" href="#">Comité directivo</a></li>
+            <li><a class="btn btn--nav" href="#cta">Únete a Impulsa</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="hero-section">
+        <div class="hero-section-inner">
+            <h1 class="hero-header">Líderes y agentes de cambio comprometidos con la sociedad</h1>
+            <div class="btn-hero">
+                <a href="#who" class="btn btn--click btn--outline btn--animated">Conoce más &downarrow;</a>
+                <a href="#cta" class="btn btn--click btn--full btn--animated">Forma parte</a>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-section">
+        <div class="container grid">
+
+        </div>
+    </section>
+    <section class="who-are-we-section" id="who">
+        <div class="who-are-we-container container">
+            <span class="subheading">¿Quiénes somos?</span>
+            <h2 class="heading-secondary">Programa de Liderazgo en Compromiso Social e Innovación Social</h2>
+            <p class="who-are-we-description">Somos el programa de liderazgo que integra a los alumnos poseedores de una
+                gran sensibilidad, conciencia social y firme inquietud por detonar proyectos de alto nivel para la
+                transformación positiva de la sociedad.</p>
+        </div>
+        <div class="mission-container container grid grid--2-cols grid--center-v">
+            <div class="mission-text-box">
+                <h2 class="heading-tertiary mission-header">Misión</h2>
+                <p class="mission-description">Formación de alto rendimiento por medio del liderazgo social, sumando
+                    experiencias formativas y prácticas en el área que
+                    se traduzcan en un máster en innovación social.
+                </p>
+            </div>
+            <div class="mission-img-box">
+                <img class="mission-img" src="./img/hero-section/hero.png" alt="Imagen de Impulsa"/>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="subheading margin-bottom-sm">Nuestros objetivos</h3>
+            <div class="goals-container">
+                <div class="goal-container">
+                    <ion-icon class="goal-icon" name="accessibility-outline"></ion-icon>
+                    <p class="goal-title">Desarrollo</p>
+                    <p class="goal-text">Desarrollar el liderazgo en compromiso e innovación social de nuestros
+                        alumnos.</p>
+                </div>
+                <div class="goal-container">
+                    <ion-icon class="goal-icon" name="bulb-outline"></ion-icon>
+                    <p class="goal-title">Emprendimiento</p>
+                    <p class="goal-text">Formar emprendedores e innovadores sociales comprometidos con México y sus
+                        causas
+                        de lucha, que destaquen por su
+                        participación en propuestas de respuesta social y proyectos de alto impacto.</p>
+                </div>
+                <div class="goal-container">
+                    <ion-icon class="goal-icon" name="bonfire-outline"></ion-icon>
+                    <p class="goal-title">Formación</p>
+                    <p class="goal-text">Brindar una sólida formación basada en valores universales y competencias
+                        globales
+                        del liderazgo.</p>
+                </div>
+                <div class="goal-container">
+                    <ion-icon class="goal-icon" name="earth-outline"></ion-icon>
+                    <p class="goal-title">Experiencias</p>
+                    <p class="goal-text">Generar experiencias de compromiso social a nivel local, nacional e
+                        internacional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section" id="cta">
+        <div class="cta container">
+            <div class="cta-text-box">
+                <h2 class="heading-secondary heading-secondary--white">¡Forma parte de Impulsa Anáhuac Mayab!</h2>
+                <p class="cta-description">Déjanos saber que quieres formar parte de Impulsa llenando este formulario.
+                    Puedes acercarte a la
+                    oficina de Impulsa en la sala de liderazgo para seguir con el proceso de selección.</p>
+                <form class="cta-form" name="registro" netlify>
+                    <div>
+                        <label for="nombre">Nombre(s): </label>
+                        <input id="nombre" type="text" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="apellidos">Apellidos: </label>
+                        <input id="apellidos" type="text" name="appelidos" required>
+                    </div>
+                    <div>
+                        <label for="id">ID: </label>
+                        <input id="id" type="text" name="id" required>
+                    </div>
+                    <div>
+                        <label for="correo">Correo: </label>
+                        <input id="correo" type="email" name="correo" required>
+                    </div>
+                    <button class="btn btn-form btn-margin-bottom">Únete ahora</button>
+                </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="Foto de impulsa"></div>
+        </div>
+    </section>
+</main>
+<footer class="footer-section">
+    <div class="container footer-container">
+        <div class="logo-socials-box">
+            <a href="#"><img src="./img/logo/logo-impulsa.png" alt="Logo de impulsa"
+                             class="header__img footer-logo"/></a>
+            <a href="https://www.instagram.com/impulsa_mayab/" target="_blank" class="social-link">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+        </div>
+        <div class="contact-box">
+            <p class="footer-heading">Contacto</p>
+            <address class="footer-address">Carr. Mérida Progreso Km. 15.5 AP. 96 Cordemex, CP. 97310, Mérida, Yucatán, México.</address>
+            <a href="mailto:impulsa@gmail.com" class="footer-link">impulsa@gmail.com</a>
+        </div>
+        <div class="information-box">
+            <p class="footer-heading">Información</p>
+            <nav class="information-links">
+            <a href="#who" class="footer-link">¿Quiénes somos?</a>
+                <a href="#" class="footer-link">Comité directivo</a>
+            <a href="#cta" class="footer-link">Forma parte de Impulsa</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

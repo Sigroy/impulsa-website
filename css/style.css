@@ -31,6 +31,7 @@ html {
 
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container {
@@ -196,6 +197,23 @@ body {
 .btn--click:active {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #232852;
+}
+
+.icon-mobile-nav[name=close-outline] {
+  display: none;
 }
 
 .footer-section {
@@ -510,6 +528,66 @@ body {
   .goals-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 3.2rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 2;
+  }
+
+  .header__nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .header__nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+
+  .header__navList {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .header__navListLink:link, .header__navListLink:visited {
+    font-size: 3rem;
+    color: #232852;
+  }
+
+  .header__navListLink:hover, .header__navListLink:active {
+    color: #323976;
+  }
+
+  .btn--nav:link, .btn--visited:link {
+    font-size: 3rem;
+  }
+
+  .nav-open .icon-mobile-nav[name=close-outline] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name=menu-outline] {
+    display: none;
+  }
+
+  .hero-section {
+    height: 93.5vh;
   }
 }
 @media (max-width: 36em) {

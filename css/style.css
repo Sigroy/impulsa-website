@@ -337,7 +337,7 @@ body {
 }
 
 .hero-section-inner {
-  max-width: 52%;
+  /*max-width: 52%;*/
   position: absolute;
   top: 50%;
   left: 50%;
@@ -506,8 +506,11 @@ body {
 }
 
 @media (max-width: 75em) {
-  .hero-header {
-    font-size: 4.4rem;
+  /*html {
+    font-size: 56.25%;
+  }*/
+  .hero-section-inner {
+    width: 60rem;
   }
 }
 @media (max-width: 60rem) {
@@ -516,16 +519,20 @@ body {
   }
 }
 @media (max-width: 48em) {
-  html {
-    font-size: 50%;
+  .who-are-we-container {
+    margin-top: 8rem;
   }
 
-  .hero-header {
+  .who-are-we-section {
+    margin-bottom: 8rem;
+  }
+
+  .heading-secondary {
     font-size: 3.6rem;
   }
 
-  .btn:link, .btn:visited {
-    font-size: 1.6rem;
+  .mission-header {
+    font-size: 5.2rem;
   }
 
   .goals-container {
@@ -596,19 +603,6 @@ body {
   .hero-section {
     height: 93.5vh;
   }
-}
-@media (max-width: 36em) {
-  html {
-    font-size: 43.75%;
-  }
-
-  .heading-secondary {
-    font-size: 3rem;
-  }
-
-  .mission-header {
-    font-size: 4.4rem;
-  }
 
   .cta {
     grid-template-columns: 1fr;
@@ -620,14 +614,26 @@ body {
     height: 100%;
   }
 }
-@media (max-width: 31em) {
+@media (max-width: 36em) {
   html {
-    font-size: 37.5%;
+    font-size: 50%;
   }
 }
-@media (max-width: 27em) {
-  html {
-    font-size: 31.25%;
+@media (max-width: 31em) {
+  .hero-header {
+    font-size: 4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .mission-header {
+    font-size: 4.4rem;
+  }
+
+  .hero-section-inner {
+    width: 50rem;
   }
 
   .grid--2-cols {
@@ -635,7 +641,8 @@ body {
     gap: 0;
     row-gap: 3.2rem;
   }
-
+}
+@media (max-width: 27em) {
   .who-are-we-section {
     margin-bottom: 6.4rem;
   }
@@ -643,10 +650,26 @@ body {
   .who-are-we-container {
     margin-top: 6.4rem;
   }
+
+  .goal-text {
+    font-size: 1.6rem;
+  }
+
+  .cta-description {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 23em) {
+  .hero-section-inner {
+    width: 35rem;
+  }
+
+  .hero-header {
+    font-size: 3.5rem;
+  }
+
   .btn:link, .btn:visited {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 }
 

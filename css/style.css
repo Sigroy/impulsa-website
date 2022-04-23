@@ -31,6 +31,9 @@ html {
 
 body {
   box-sizing: border-box;
+}
+
+html, body {
   overflow-x: hidden;
 }
 
@@ -533,6 +536,10 @@ body {
   .btn-mobile-nav {
     display: block;
     z-index: 2;
+  }
+
+  .header {
+    position: relative;
   }
 
   .header__nav {

@@ -28,3 +28,7 @@
 .header__navListLink:hover, .header__navListLink:active {
   color: $color-secondary;
 }
+
+#who, #cta {
+  scroll-margin-top: 58px;
+}

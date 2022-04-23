@@ -651,6 +651,14 @@ body {
     margin-top: 6.4rem;
   }
 
+  .goals-container {
+    grid-template-columns: 1fr;
+  }
+
+  .goal-icon {
+    margin-bottom: 2.4rem;
+  }
+
   .goal-text {
     font-size: 1.6rem;
   }

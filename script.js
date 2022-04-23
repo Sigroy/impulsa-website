@@ -1,6 +1,6 @@
 const btnNavOpenEl = document.querySelector('.btn-mobile-nav');
 const headerEl = document.querySelector('.header');
-const navListLinkEl = document.getElementsByClassName('.header__navListLink');
+const navListLinkEl = document.querySelectorAll('.header__navListLink');
 const btnNavEl = document.querySelector('.btn--nav');
 
 btnNavOpenEl.addEventListener('click', () => {
@@ -11,12 +11,15 @@ document.querySelector('body').addEventListener('keydown', () => {
     headerEl.classList.remove('nav-open');
 });
 
-navListLinkEl.onclick = () => {
-    headerEl.classList.remove('nav-open');
-};
+
+navListLinkEl.forEach((link) => {
+    link.addEventListener('click', function() {
+        headerEl.classList.toggle('nav-open')
+    });
+});
 
 btnNavEl.addEventListener('click', () => {
-    headerEl.classList.remove('nav-open');
+    headerEl.classList.toggle('nav-open');
 });
 
 const sectionHeroEl = document.querySelector(".hero-section");

@@ -40,18 +40,6 @@ body {
   padding: 0 3.2rem;
 }
 
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
-
-.margin-bottom-sm {
-  margin-bottom: 2.4rem;
-}
-
-.text-color-white {
-  color: #fff;
-}
-
 /*
     --- TYPOGRAPHY SYSTEM
     * FONT SIZE SYSTEM (px)
@@ -119,6 +107,18 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2.4rem;
+}
+
+.text-color-white {
+  color: #fff;
 }
 
 .btn, .btn:link, .btn:visited {

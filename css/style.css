@@ -563,7 +563,7 @@ body {
     margin-top: 6.4rem;
   }
 }
-@media (min-width: 0) {
+@media (max-width: 20em) {
   .hero-header {
     font-size: 2.9rem;
   }

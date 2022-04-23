@@ -188,15 +188,19 @@
 // Móviles pequeños 368px
 @media (max-width: 23em) {
   .hero-section-inner {
-    width: 35rem;
+    width: 38rem;
   }
 
   .hero-header {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
   }
 
   .btn:link, .btn:visited {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+  }
+
+  .btn--nav:link, .btn--nav:visited {
+    font-size: 3rem;
   }
 
 }

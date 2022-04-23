@@ -517,10 +517,6 @@ body {
     font-size: 43.75%;
   }
 
-  .hero-header {
-    font-size: 3rem;
-  }
-
   .heading-secondary {
     font-size: 3rem;
   }
@@ -564,10 +560,6 @@ body {
   }
 }
 @media (max-width: 20em) {
-  .hero-header {
-    font-size: 2.9rem;
-  }
-
   .btn:link, .btn:visited {
     font-size: 1.2rem;
   }

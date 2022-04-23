@@ -1,0 +1,104 @@
+// Pantallas extragrandes 1200px
+@media (max-width: 75em) {
+  .hero-header {
+    font-size: 4.4rem;
+  }
+}
+
+// Pantallas grandes 960px
+@media (max-width: 60rem) {
+  html {
+    font-size: 56.25%;
+  }
+
+}
+
+// Pantallas pequeñas 768px
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-header {
+    font-size: 3.6rem;
+  }
+
+  .btn:link, .btn:visited {
+    font-size: 1.6rem;
+  }
+
+  .goals-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.2rem;
+  }
+}
+
+// Tablets 576px
+@media (max-width: 36em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .hero-header {
+    font-size: 3.0rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.0rem;
+  }
+
+  .mission-header {
+    font-size: 4.4rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 3.6rem;
+  }
+
+  .cta-img-box {
+    height: 100%;
+  }
+}
+
+// Móviles grandes 496px
+@media (max-width: 31em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+// Móviles medianos 432px
+@media (max-width: 27em) {
+  html {
+    font-size: 31.25%;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    gap: 0;
+    row-gap: 3.2rem;
+  }
+
+  .who-are-we-section {
+    margin-bottom: 6.4rem;
+  }
+
+  .who-are-we-container {
+    margin-top: 6.4rem;
+  }
+}
+
+// Móviles pequeños 320px
+@media (min-width: 0) {
+
+  .hero-header {
+    font-size: 2.9rem;
+  }
+
+  .btn:link, .btn:visited {
+   font-size: 1.2rem;
+  }
+
+}

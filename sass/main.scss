@@ -1,5 +1,4 @@
 @use "./abstracts/animations";
-@use "./abstracts/breakpoints";
 @use "./abstracts/mixins";
 @use "./abstracts/variables";
 
@@ -17,3 +16,5 @@
 @use "./layout/navigation";
 
 @use "./pages/home";
+
+@use "./abstracts/breakpoints";

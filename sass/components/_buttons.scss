@@ -1,21 +1,6 @@
 @use "../abstracts/variables" as *;
 @use "../base/typography" as *;
 
-.btn, .btn:link, .btn:visited {
-  font-size: 2rem;
-  font-weight: 600;
-  display: inline-block;
-  padding: 0.8rem 3.2rem;
-  border-radius: 9px;
-  text-decoration: none;
-  /* Put transition on original "state" */
-  /* element - time */
-  transition: background-color 0.3s;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-}
-
 .btn--full:link, .btn--full:visited {
   background-color: $color-primary;
   color: #fff;

@@ -1,7 +1,7 @@
 @use "../abstracts/variables" as *;
 
 .hero-section {
-  height: 91.8vh;
+  height: 100vh;
   background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../img/hero-section/hero-prueba.jpeg");
   background-size: cover;
   color: $color-text-white;

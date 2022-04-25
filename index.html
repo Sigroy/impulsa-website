@@ -7,23 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="./css/style.css" rel="stylesheet">
     <title>Inicio | Impulsa Anáhuac Mérida</title>
 </head>
 <body>
-<header class="header">
-    <img src="./img/logo/logo-impulsa.png" alt="Logo de impulsa" class="header__img"/>
-    <nav class="header__nav">
-        <ul class="header__navList">
-            <li><a class="header__navListLink" href="#who">¿Quiénes somos?</a></li>
-            <li><a class="header__navListLink" href="#">Comité directivo</a></li>
-            <li><a class="btn btn--nav" href="#cta">Únete a Impulsa</a></li>
-        </ul>
+<header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+        <div class="container-xl">
+            <img src="./img/logo/logo-impulsa.png" alt="Logo de impulsa" class="navbar-brand"/>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a class="nav-link text-white" href="#who">¿Quiénes somos?</a></li>
+                    <li class="navbar-item"><a class="nav-link text-white" href="#">Comité directivo</a></li>
+                    <li class="navbar-item d-md-none">
+                        <a href="#cta" class="nav-link">Únete a Impulsa</a>
+                    </li>
+                    <li class="navbar-item ms-2 d-none d-md-inline"><a class="btn btn-secondary" href="#cta">Únete a
+                        Impulsa</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-    </button>
 </header>
 <main>
     <section class="hero-section">
@@ -152,6 +162,9 @@
 </footer>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 <script src="./script.js"></script>
 </body>
 </html>

@@ -25,7 +25,6 @@
 }
 
 html {
-  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -123,21 +122,6 @@ body {
 
 .text-color-white {
   color: #fff;
-}
-
-.btn, .btn:link, .btn:visited {
-  font-size: 2rem;
-  font-weight: 600;
-  display: inline-block;
-  padding: 0.8rem 3.2rem;
-  border-radius: 9px;
-  text-decoration: none;
-  /* Put transition on original "state" */
-  /* element - time */
-  transition: background-color 0.3s;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
 }
 
 .btn--full:link, .btn--full:visited {
@@ -326,7 +310,7 @@ body {
 }
 
 .hero-section {
-  height: 91.8vh;
+  height: 100vh;
   background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../img/hero-section/hero-prueba.jpeg");
   background-size: cover;
   color: #fff;

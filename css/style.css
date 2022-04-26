@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -509,20 +510,31 @@ body {
   box-shadow: 0 0 0 0.5rem rgba(255, 106, 26, 0.5);
 }
 
+/*
+
+// Pantallas extragrandes 1200px
 @media (max-width: 75em) {
-  /*html {
+  !*html {
     font-size: 56.25%;
-  }*/
+  }*!
+
   .hero-section-inner {
     width: 60rem;
   }
+
 }
+
+// Pantallas grandes 960px
 @media (max-width: 60rem) {
   html {
     font-size: 56.25%;
   }
+
 }
+
+// Pantallas pequeñas 768px
 @media (max-width: 48em) {
+
   .who-are-we-container {
     margin-top: 8rem;
   }
@@ -566,9 +578,13 @@ body {
     justify-content: center;
     transform: translateX(100%);
     transition: all 0.5s ease-in;
+
+
+    // Hide navigation
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+
   }
 
   .nav-open .header__nav {
@@ -585,27 +601,27 @@ body {
 
   .header__navListLink:link, .header__navListLink:visited {
     font-size: 3rem;
-    color: #232852;
+    color: $color-secondary;
   }
 
   .header__navListLink:hover, .header__navListLink:active {
-    color: #323976;
+    color: lighten($color-secondary, 10%);
   }
 
   .btn--nav:link, .btn--visited:link {
     font-size: 3rem;
   }
 
-  .nav-open .icon-mobile-nav[name=close-outline] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name=menu-outline] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
   .hero-section {
-    height: 93.5vh;
+    height: 100vh;
   }
 
   .cta {
@@ -618,18 +634,24 @@ body {
     height: 100%;
   }
 }
+
+// Tablets 576px
 @media (max-width: 36em) {
   html {
     font-size: 50%;
   }
+
 }
+
+// Móviles grandes 496px
 @media (max-width: 31em) {
+
   .hero-header {
-    font-size: 4rem;
+    font-size: 4.0rem;
   }
 
   .heading-secondary {
-    font-size: 3rem;
+    font-size: 3.0rem;
   }
 
   .mission-header {
@@ -646,7 +668,10 @@ body {
     row-gap: 3.2rem;
   }
 }
+
+// Móviles medianos 432px
 @media (max-width: 27em) {
+
   .who-are-we-section {
     margin-bottom: 6.4rem;
   }
@@ -671,6 +696,8 @@ body {
     font-size: 1.6rem;
   }
 }
+
+// Móviles pequeños 368px
 @media (max-width: 23em) {
   .hero-section-inner {
     width: 38rem;
@@ -687,6 +714,7 @@ body {
   .btn--nav:link, .btn--nav:visited {
     font-size: 3rem;
   }
-}
+
+}*/
 
 /*# sourceMappingURL=style.css.map */

@@ -1,20 +1,8 @@
-@use "./abstracts/animations";
-@use "./abstracts/mixins";
-@use "./abstracts/variables";
+// custom variables
+$primary: #ff5900;
+$secondary: #232852;
 
-@use "./base/reset";
-@use "./base/typography";
-@use "./base/utilities";
+@import "layout/header";
 
-@use "./components/buttons";
-@use "./components/gallery";
-
-@use "./layout/footer";
-@use "./layout/forms";
-@use "./layout/grid";
-@use "./layout/header";
-@use "./layout/navigation";
-
-@use "./pages/home";
-
-@use "./abstracts/breakpoints";
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';

@@ -1,5 +1,5 @@
 const btnNavOpenEl = document.querySelector('.btn-mobile-nav');
-const headerEl = document.querySelector('.header');
+const headerEl = document.querySelector('.layout');
 const navListLinkEl = document.querySelectorAll('.header__navListLink');
 const btnNavEl = document.querySelector('.btn--nav');
 

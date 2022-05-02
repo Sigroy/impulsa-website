@@ -1,49 +1,9 @@
-@use "../abstracts/variables" as *;
-
 .hero-section {
   height: 100vh;
   background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../img/hero-section/hero-prueba.jpeg");
   background-size: cover;
-  color: $color-text-white;
   /*padding-top: 12.8rem;*/
   /*display: grid;
   justify-items: center;*/
   position: relative;
-}
-
-.hero-section-inner {
-  /*max-width: 52%;*/
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hero-paragraph {
-  font-size: 2rem;
-  line-height: 1.6;
-  /*margin-bottom: 8.0rem;*/
-  text-align: center;
-}
-
-.btn-hero {
-  display: flex;
-  justify-content: center;
-  gap: 2.4rem;
-}
-
-.sticky .header {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: rgba($color-primary, 0.9);
-  z-index: 50;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
-}
-
-.sticky .hero-section {
-  margin-top: 58px;
 }

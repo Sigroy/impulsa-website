@@ -2,7 +2,9 @@
 $primary: #ff5900;
 $secondary: #232852;
 
-@import "layout/header";
-
 // import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+//sass imports
+@import "abstracts/animations";
+@import "layout/header";

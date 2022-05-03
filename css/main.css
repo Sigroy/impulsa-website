@@ -11161,6 +11161,10 @@ textarea.form-control-lg {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+.mb-hs {
+  margin-bottom: 56px;
+}
+
 .hero-section {
   height: 100vh;
   background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../img/hero-section/hero-prueba.jpeg");
